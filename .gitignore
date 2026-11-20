@@ -1,0 +1,20 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Your settings (copy .env.example to .env)
+.env
+
+# Built from YOUR Zotero library: full text of your PDFs, notes and highlights.
+# Never commit these (privacy, and most PDFs are copyrighted).
+indexes/
+cache/
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

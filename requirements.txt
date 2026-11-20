@@ -1,0 +1,17 @@
+# Tested together with Python 3.13 on macOS (Apple Silicon). Newer versions will
+# probably work, but these are known to.
+llama-index-core==0.14.15
+llama-index-llms-ollama==0.9.1
+llama-index-embeddings-ollama==0.8.6
+llama-index-vector-stores-lancedb==0.4.4
+llama-index-retrievers-bm25==0.6.5
+lancedb==0.29.2
+pyarrow==23.0.0
+pandas==2.3.3
+sentence-transformers==5.2.2
+torch==2.10.0
+streamlit==1.54.0
+python-dotenv==1.2.1
+beautifulsoup4==4.14.3
+# PDF text extraction with page numbers
+pymupdf==2.1
